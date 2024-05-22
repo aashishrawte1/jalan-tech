@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.current-time {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.alarm-form {
+    margin-bottom: 20px;
+}
+
+.alarm-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alarm-form label, .alarm-form input, .alarm-form select, .alarm-form button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.alarms-list {
+    text-align: left;
+}
+
+.alarms-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alarms-list li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alarms-list button {
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.alarms-list button:hover {
+    background-color: #0056b3;
+}
